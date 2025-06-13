@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Doménica - Mi Amor Eterno</title>
+    <link rel="stylesheet" href="stylos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Audio de fondo -->
+        <audio id="background-music" loop>
+            <source src="assets/musica.mp3" type="audio/mpeg">
+        </audio>
+        
+        <!-- Control de música -->
+        <div class="music-control">
+            <button id="music-toggle" onclick="toggleMusic()">
+                <i class="fas fa-music"></i>
+            </button>
+        </div>
+
+        <!-- Libro -->
+        <div class="book" id="book">
+            <!-- Página 1 - Portada -->
+            <div class="page" data-page="1">
+                <div class="page-content portada">
+                    <h1 class="titulo-principal">💕 Para Doménica 💕</h1>
+                    <div class="dedicatoria">
+                        <p>Mi amor desde el 27 de abril de 2025</p>
+                        <div class="corazones-decorativos">
+                            <span>💖</span>
+                            <span>💝</span>
+                            <span>💖</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Página 2 - Carta de amor -->
+            <div class="page" data-page="2">
+                <div class="page-content carta">
+                    <h2>Mi Amor Eterno</h2>
+                    <p>Querida Doménica,</p>
+                    <p>Desde que llegaste a mi vida el 27 de abril de 2025, cada día se ha vuelto más especial. Tu sonrisa ilumina mis días y tu amor llena mi corazón de felicidad.</p>
+                    <p>Cada 6 de mayo celebro no solo tu cumpleaños, sino el día en que el universo me regaló a la persona más maravillosa que existe.</p>
+                    <p>Este librito es para ti, con todo mi amor y cariño...</p>
+                    <div class="firma">Con amor infinito 💕</div>
+                </div>
+            </div>
+
+            <!-- Páginas 3-7 - Fotos -->
+            <div class="page" data-page="3">
+                <div class="page-content foto-page">
+                    <h3>Nuestros Momentos Especiales</h3>
+                    <div class="foto-container">
+                        <img src="images/foto1.jpg" alt="Nuestro primer momento juntos" class="foto">
+                        <p class="pie-foto">El día que comenzó nuestra historia de amor 💖</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page" data-page="4">
+                <div class="page-content foto-page">
+                    <h3>Recuerdos Inolvidables</h3>
+                    <div class="foto-container">
+                        <img src="images/foto2.jpg" alt="Momento especial juntos" class="foto">
+                        <p class="pie-foto">Cada momento contigo es perfecto 🌟</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page" data-page="5">
+                <div class="page-content foto-page">
+                    <h3>Tu Sonrisa</h3>
+                    <div class="foto-container">
+                        <img src="images/foto3.jpg" alt="Tu hermosa sonrisa" class="foto">
+                        <p class="pie-foto">La sonrisa que ilumina mi mundo 😊</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page" data-page="6">
+                <div class="page-content foto-page">
+                    <h3>Juntos Para Siempre</h3>
+                    <div class="foto-container">
+                        <img src="images/foto4.jpg" alt="Nuestro amor" class="foto">
+                        <p class="pie-foto">Construyendo nuestro futuro juntos 💑</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page" data-page="7">
+                <div class="page-content foto-page">
+                    <h3>Mi Amor</h3>
+                    <div class="foto-container">
+                        <img src="images/foto5.jpg" alt="Mi amor eterno" class="foto">
+                        <p class="pie-foto">Eres mi todo, mi amor eterno 💕</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Páginas 8-12 - 20 razones por las que la amo -->
+            <div class="page" data-page="8">
+                <div class="page-content razones">
+                    <h3>20 Razones Por Las Que Te Amo</h3>
+                    <div class="lista-razones">
+                        <div class="razon">💖 1. Tu sonrisa ilumina mis días más oscuros</div>
+                        <div class="razon">🌟 2. Tu bondad y gran corazón</div>
+                        <div class="razon">💕 3. La forma en que me cuidas y me amas</div>
+                        <div class="razon">🌸 4. Tu belleza interior y exterior</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page" data-page="9">
+                <div class="page-content razones">
+                    <h3>Más Razones...</h3>
+                    <div class="lista-razones">
+                        <div class="razon">🎵 5. Tu risa melodiosa que amo escuchar</div>
+                        <div class="razon">💝 6. Como haces que cada día sea especial</div>
+                        <div class="razon">🌹 7. Tu paciencia y comprensión</div>
+                        <div class="razon">💫 8. Los sueños que compartimos juntos</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page" data-page="10">
+                <div class="page-content razones">
+                    <h3>Continuando...</h3>
+                    <div class="lista-razones">
+                        <div class="razon">🦋 9. Tu forma única de ver el mundo</div>
+                        <div class="razon">💖 10. Como me haces sentir amado</div>
+                        <div class="razon">🌟 11. Tu fuerza y determinación</div>
+                        <div class="razon">💕 12. Los abrazos que me dan paz</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page" data-page="11">
+                <div class="page-content razones">
+                    <h3>Casi Terminando...</h3>
+                    <div class="lista-razones">
+                        <div class="razon">🌈 13. Como coloreas mi vida</div>
+                        <div class="razon">💝 14. Tu forma de apoyarme siempre</div>
+                        <div class="razon">🌸 15. Los momentos íntimos que compartimos</div>
+                        <div class="razon">💫 16. Como me inspiras a ser mejor</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page" data-page="12">
+                <div class="page-content razones">
+                    <h3>Las Últimas 4...</h3>
+                    <div class="lista-razones">
+                        <div class="razon">💖 17. Tu inteligencia y sabiduría</div>
+                        <div class="razon">🌟 18. Como me completas perfectamente</div>
+                        <div class="razon">💕 19. El futuro hermoso que construiremos</div>
+                        <div class="razon">💝 20. Porque eres simplemente perfecta para mí</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Páginas 13-19 - Páginas decorativas -->
+            <div class="page" data-page="13">
+                <div class="page-content decorativa">
+                    <div class="flores-decorativas">🌸 🌺 🌸</div>
+                    <h3>Eres Mi Todo</h3>
+                    <p class="texto-decorativo">En cada amanecer pienso en ti, en cada atardecer agradezco tenerte. Eres la razón de mi felicidad y la luz que guía mi camino.</p>
+                    <div class="corazones-flotantes">💖 💕 💝</div>
+                </div>
+            </div>
+
+            <div class="page" data-page="14">
+                <div class="page-content decorativa">
+                    <div class="flores-decorativas">🌹 💐 🌹</div>
+                    <h3>Mi Promesa</h3>
+                    <p class="texto-decorativo">Prometo amarte cada día más, cuidar de nuestro amor y hacer que cada momento juntos sea especial. Eres mi presente y mi futuro.</p>
+                    <div class="corazones-flotantes">💗 💞 💓</div>
+                </div>
+            </div>
+
+            <div class="page" data-page="15">
+                <div class="page-content decorativa">
+                    <div class="flores-decorativas">🦋 🌸 🦋</div>
+                    <h3>Nuestros Sueños</h3>
+                    <p class="texto-decorativo">Sueño con un futuro lleno de aventuras contigo, de risas compartidas y de amor infinito. Juntos podemos lograr todo lo que nos propongamos.</p>
+                    <div class="corazones-flotantes">💖 💕 💝</div>
+                </div>
+            </div>
+
+            <div class="page" data-page="16">
+                <div class="page-content decorativa">
+                    <div class="flores-decorativas">💐 🌺 💐</div>
+                    <h3>Eres Especial</h3>
+                    <p class="texto-decorativo">No existe nadie como tú en este mundo. Eres única, especial y perfecta a mis ojos. Gracias por elegirme para ser parte de tu vida.</p>
+                    <div class="corazones-flotantes">💗 💞 💓</div>
+                </div>
+            </div>
+
+            <div class="page" data-page="17">
+                <div class="page-content decorativa">
+                    <div class="flores-decorativas">🌸 🦋 🌸</div>
+                    <h3>Mi Agradecimiento</h3>
+                    <p class="texto-decorativo">Gracias por tu amor incondicional, por tu paciencia, por tus sonrisas y por hacer de mi vida algo maravilloso. Eres mi bendición.</p>
+                    <div class="corazones-flotantes">💖 💕 💝</div>
+                </div>
+            </div>
+
+            <div class="page" data-page="18">
+                <div class="page-content decorativa">
+                    <div class="flores-decorativas">🌹 💝 🌹</div>
+                    <h3>Para Siempre</h3>
+                    <p class="texto-decorativo">Mi amor por ti es eterno, no tiene fin ni límites. Cada día que pasa te amo más, y así será por toda la eternidad.</p>
+                    <div class="corazones-flotantes">💗 💞 💓</div>
+                </div>
+            </div>
+
+            <div class="page" data-page="19">
+                <div class="page-content decorativa">
+                    <div class="flores-decorativas">💐 🌸 💐</div>
+                    <h3>Eres Mi Vida</h3>
+                    <p class="texto-decorativo">Antes de conocerte, solo existía. Ahora contigo, realmente vivo. Eres mi vida, mi amor, mi todo. Te amo más de lo que las palabras pueden expresar.</p>
+                    <div class="corazones-flotantes">💖 💕 💝</div>
+                </div>
+            </div>
+
+            <!-- Página 20 - Cierre -->
+            <div class="page" data-page="20">
+                <div class="page-content cierre">
+                    <h2>Hasta Siempre Mi Amor</h2>
+                    <p>Este librito es solo una pequeña muestra de todo el amor que siento por ti. Espero que cada vez que lo veas, recuerdes lo especial que eres para mí.</p>
+                    <p>Te amo hoy, mañana y siempre...</p>
+                    <div class="firma-final">
+                        <p>Con todo mi amor,</p>
+                        <p class="nombre">Tu Niño chiquito</p>
+                        <div class="corazones-final">💖 💕 💝 💗 💞</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controles de navegación -->
+        <div class="navigation">
+            <button id="prev-btn" onclick="previousPage()">
+                <i class="fas fa-chevron-left"></i> Anterior
+            </button>
+            <span id="page-indicator">1 / 20</span>
+            <button id="next-btn" onclick="nextPage()">
+                Siguiente <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Partículas de corazones -->
+    <div id="particles"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

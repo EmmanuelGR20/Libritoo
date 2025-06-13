@@ -1,0 +1,102 @@
+# 💕 Librito Virtual Para Doménica 💕
+
+Un librito virtual interactivo creado con amor para Doménica, con efectos 3D, animaciones y música de fondo.
+
+## 🌟 Características
+
+- **20 páginas interactivas** con efectos de volteo 3D
+- **Diseño responsive** que se adapta a móviles y escritorio
+- **Música de fondo** con control de reproducción
+- **Animaciones románticas** con corazones flotantes y destellos
+- **Navegación táctil** y por teclado
+- **Efectos visuales** suaves y transiciones elegantes
+
+## 📁 Estructura del Proyecto
+
+```
+mi-librito/
+├── index.html          # Página principal
+├── styles.css          # Estilos del librito
+├── script.js           # Funcionalidad interactiva
+├── images/             # Carpeta de fotos
+│   ├── foto1.jpg       # Reemplazar con fotos reales
+│   ├── foto2.jpg
+│   ├── foto3.jpg
+│   ├── foto4.jpg
+│   └── foto5.jpg
+├── assets/             # Recursos multimedia
+│   ├── musica.mp3      # Música de fondo
+│   └── patron-corazones.png  # Patrón decorativo
+└── README.md           # Este archivo
+```
+
+## 🚀 Cómo Publicar en GitHub Pages
+
+### Paso 1: Preparar los Archivos
+1. **Reemplaza las imágenes placeholder** en la carpeta `images/` con las fotos reales
+2. **Agrega tu archivo de música** como `musica.mp3` en la carpeta `assets/`
+3. **Opcional:** Agrega una imagen de patrón como `patron-corazones.png` en `assets/`
+4. **Personaliza el nombre** en la página 20 reemplazando `[Tu Nombre]`
+
+### Paso 2: Subir a GitHub
+1. Crea un nuevo repositorio en GitHub
+2. Sube todos los archivos del proyecto
+3. Asegúrate de que `index.html` esté en la raíz del repositorio
+
+### Paso 3: Activar GitHub Pages
+1. Ve a la pestaña **Settings** de tu repositorio
+2. Scroll hacia abajo hasta **Pages** en el menú lateral
+3. En **Source**, selecciona **Deploy from a branch**
+4. Selecciona la rama **main** (o **master**)
+5. Selecciona **/ (root)** como carpeta
+6. Haz clic en **Save**
+
+### Paso 4: Acceder al Sitio
+- GitHub te dará una URL como: `https://tu-usuario.github.io/nombre-repositorio`
+- El sitio estará disponible en unos minutos
+
+## 📱 Compatibilidad
+
+- ✅ Chrome, Firefox, Safari, Edge
+- ✅ Dispositivos móviles (iOS/Android)
+- ✅ Tablets y computadoras de escritorio
+- ✅ Navegación táctil y por teclado
+
+## 🎵 Música de Fondo
+
+Para que la música funcione correctamente:
+- Usa archivos MP3 de buena calidad pero no muy pesados (máximo 5MB)
+- Algunos navegadores requieren interacción del usuario antes de reproducir audio
+- El botón de música permite activar/desactivar la reproducción
+
+## 💖 Personalización
+
+Puedes personalizar fácilmente:
+- **Colores:** Modifica los valores en `styles.css`
+- **Textos:** Edita el contenido en `index.html`
+- **Razones de amor:** Cambia las 20 razones en las páginas 8-12
+- **Fotos:** Reemplaza las imágenes en la carpeta `images/`
+- **Música:** Cambia el archivo `musica.mp3`
+
+## 🛠️ Solución de Problemas
+
+### Las imágenes no cargan:
+- Verifica que los nombres de archivo coincidan exactamente
+- Asegúrate de que las imágenes estén en formato JPG, PNG o WebP
+
+### La música no reproduce:
+- Verifica que el archivo esté en formato MP3
+- Algunos navegadores bloquean autoplay, usa el botón de música
+
+### El sitio no se ve bien en móvil:
+- El diseño es responsive, pero asegúrate de que las imágenes no sean muy pesadas
+
+## 💕 Mensaje Final
+
+Este librito fue creado con mucho amor y cariño. Cada detalle está pensado para expresar sentimientos profundos y crear una experiencia memorable.
+
+**¡Que disfrutes compartiendo este hermoso regalo digital! 💖**
+
+---
+
+*Creado con amor para Doménica* 💕
